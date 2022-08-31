@@ -40,7 +40,7 @@ function FilteredEventsPage(props) {
 
   return (
     <Fragment>
-      <ResultsTitle date={props.date} />
+      <ResultsTitle date={date} />
       <EventList items={props.filteredEvents} />
     </Fragment>
   );
